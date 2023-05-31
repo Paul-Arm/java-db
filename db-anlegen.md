@@ -11,5 +11,7 @@
 >>– anschaffungstag (date) – Datum der Anschaffung im Format YYYY-MM-DD
 
 >c) Definieren Sie das Attribut id als Primärschlüssel.
->d) Füllen Sie die Tabelle mit Testdaten (mindestens 5\ Straßenbahnen).
+
+>d) Füllen Sie die Tabelle mit Testdaten (mindestens 5 Straßenbahnen).
+
 >e) Exportieren Sie die Datenbank und analysieren Sie den Inhalt der .sql-Datei.
