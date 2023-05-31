@@ -41,3 +41,34 @@ VALUES
   (5, 300, 250, '2023-02-19', 1);
  
 ```
+## 2.
+
+Formulieren Sie die SQL-Anweisungen für folgende Abfragen.
+
+a) Liste aller Strassenbahnen mit allen Informationen.
+
+SELECT
+
+b) Liste aller Strassenbahnen mit der ID und maxPassagiere.
+SELECT id,
+
+c) maxPassagiere von der Strassenbahn mit der größten Anzahl von maxPassagiere.
+SELECT MAX(maxPassagiere)
+
+d) maxPassagiere von der Strassenbahn mit der kleinsten Anzahl von maxPassagiere.
+
+e) Summe aller Passagiere die maximal in allen Strassenbahnen befördert werden können.
+
+f) Liste aller Strassenbahnen die vor 2021 angeschafft wurden.
+SELECT * FROM strassenbahn WHERE anschaffungstag<"2021-01-01";
+
+g) Liste aller Strassenbahnen die im Jahr 2020 angeschafft wurden.
+
+h) Liste aller Strassenbahnen die aktuell nicht fahren.
+
+i) Liste aller Strassenbahnen die aktuell voll belegt sind.
+
+j) Liste aller Strassenbahnen aufsteigend sortiert nach maxPassagiere.
+
+k) ZUSATZ: ID und maxPassagiere von den Strassenbahnen mit der größten Anzahl von
+maxPassagiere.
